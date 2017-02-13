@@ -123,3 +123,10 @@
         width: 100%;
         cursor: pointer;
     }
+
+   .menu-style {
+       position: absolute;
+       left:0;
+       top:40px;
+       width:100%;
+   }
