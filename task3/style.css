@@ -1,83 +1,13 @@
 
-.body {background-color: #68cdd5;
-    width: 100%;
-    height: 100%;
+   body {
+    background-color: #68cdd5;
     margin:0 auto;
-    position: relative;
    }
-   .topnav {
-    display: inline-block;
-    background-color:#22292c;
-    width: 100%;
-   }
-   .topnav .top1{
-    float: left; 
-    width: 20%;
-    background-color: red;
-   }
-   .topnav .top2{
-    float: left; 
-    width: 60%;
-    background-color: #f0f;
-   }
-   .topnav .top3{
-    float: left; 
-    width: 20%;
-    background-color: #f60;
-   }
-   .topnav .top1 .arrow {
-    float: left;
-    width: 3.125%;
-    height: 7.75%;
-    margin-left: 18px; 
-    padding-top: 20px;
-    padding-bottom: 14px;
-   }
-   .topnav .top1 .arrow .img {
-    width: 200%;
-    height: 200%;
-   }
-    .topnav .top1 .back {
-    float: left;
-    margin-left: 12px;
-    padding-top: 20px; 
-    width: 7.8%;
-    height: 7.75%;
-    
-   }
-   .topnav .top1 .back .img {
-    width: 300%;
-    height: 300%;
-   }
-   .topnav .top2 .title {
-    margin: 0 auto;
-    padding-top: 18px;
-    padding-bottom: 14px; 
-    width: 10.3%;
-    height: 7.75%;
-   }
-   .topnav .top2 .title .img {
-    width: 100%;
-    height: 100%;
-   }
-  
-   .topnav .top3 .meum {
-    float: right;
-    margin-right: 32px;  
-    padding-top: 20px;
-    padding-bottom: 16px;
- 
-    width: 7.8%; 
-    height: 7.75%;  
-   }
-   .topnav .top3 .meum .img{
-    width: 300%;
-    height: 300%;
-   }
+   
 
    .footer { 
     width: 100%;
-    border: 1px solid red;
+    
   }
    .footer .left {
     width: 50%;
@@ -87,7 +17,7 @@
    .footer .left .img {
     margin-right: 0px;
     margin-top: 22px;
-    width: 30%;
+    max-width: 30%;
    }
    .footer .right {
     width: 50%;
@@ -96,13 +26,15 @@
    }
    .footer .right .img {
     margin-top: 22px;
-    width: 30%;
+    max-width: 30%;
    }
    .footer .font1 {
+    font-size: 80%;
     font-family: "AdobeHeitiStd-Regular","Microsoft Yahei","Monaco","Consolas";
     color: #fff;
    }
    .footer .font2 {
+    font-size: 80%;
     font-family: "AdobeHeitiStd-Regular","Microsoft Yahei","Monaco","Consolas";
     color: #fff;
    }
@@ -111,26 +43,26 @@
    .index {
     width: 100%;
     padding-top: 12px;
-    padding-bottom: 50px;
+    padding-bottom: 90px;
     text-align: center;
-    background-color: #666;
+    
    }
    .index .header {
     width: 8.5%;
     height: auto;
     margin-left: 20px;
-    background-color: #06f;
+    
    }
    .index .header .img {
-    width: 80%;
-    height: 80%;
+    max-width: 80%;
+    
    }
    .index .article1 {
     margin: 0 auto;
     margin-top: 22px;
     width: 28.4375%;
     height: auto; 
-    background-color: #ff6;
+    
    }
    .index .article1 .img {
     max-width: 100%;
@@ -142,7 +74,7 @@
     width: 70.3125%;   
     font-family: arial,"HiraginoSans GB",sans-serif,"Microsoft Yahei";
     color:#fff;
-    background-color: #f34;
+    
     line-height: 32px;
     text-align: justify;
    }
