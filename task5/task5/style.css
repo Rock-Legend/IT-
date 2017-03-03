@@ -1,0 +1,210 @@
+    
+    body {
+      margin: 0px; 
+      max-width: 720px; 
+      max-height: 1280px;
+      margin: 0 auto;
+      }
+    .header {
+      background-color: #5fc0cd;
+      max-width: 720px;
+      width: 100%; 
+      position: fixed;
+      z-index: 5;
+      top: 0;
+      text-align: center;
+      }
+    .header .part1 {
+      float: left;
+      position: relative;
+      width: 10%;
+      height: inherit;
+      }
+    .header .part1 .back {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      text-transform: translate(-50%,-50%);
+      -webkit-transform:translate(-50%,-50%);
+      -moz-transform:translate(-50%,-50%);
+      -ms-transform:translate(-50%,-50%);     
+      }
+    .header .part1 .back .img {width: 70%;}
+    .header .part2 {
+      float: right;
+      width: 10%;
+      height: inherit;
+      }   
+    .header span {
+      text-align: center;
+      color: #fff;
+      font-family: "黑体 light";
+    }
+    .card {
+      background:url(images/123.png) no-repeat;
+      background-size: cover;
+      width: 100%;
+      }
+    .card .part1 {
+      position: relative;
+      float: left;
+      width: 33.3%;
+      height: inherit;
+      overflow: hidden;
+      }
+    .card .part1 .img {
+      width: 85px;
+      position: absolute;
+      top: 50%; left: 50%;
+      text-transform: translate(-50%,-50%);
+      -webkit-transform:translate(-50%,-50%);
+      -moz-transform:translate(-50%,-50%);
+      -ms-transform:translate(-50%,-50%);
+      }
+    .card .part2 {
+      float: left;
+      width: 45%;
+      height: inherit;
+      color: #fff;
+      }
+    .card .part2 .name,.card .part2 .add{width: 220px; font-family: "黑体";}
+     {width: 220px; font-family: "黑体";}
+    .card .part2 .add img {margin-bottom: -2px;}
+    .list1 {
+      position: relative;
+      width: 100%;
+      border-bottom: 1px solid #e1e5e7;
+      }
+    .list1 .power {
+      position: absolute;
+      top: 30%;
+      border-left:2px solid #5fc0cd; 
+      font-family: "黑体";
+      }
+    .list2 {
+      margin: 0px 0px 0px 15px;
+      padding: 0px;
+      height: 50px;
+      border-bottom: 1px solid #e1e5e7; 
+      font-family: "黑体";
+      font-size: 1rem;
+      }
+    .list2 dt {
+      float: left;
+      padding-top: 1em;
+      margin: 0px;
+      color: #999;
+      }
+    .list2 dd {
+      float: left;
+      padding-top: 1em;
+      margin: 0px;
+      }
+    .list3 {
+      margin: 0px;
+      width: 100%;
+      height: 50px;
+      border-bottom: 1px solid #e1e5e7;
+      font-family: "黑体";
+      font-size: 1rem;
+      }
+    .list3 dt {
+      float: left; 
+      padding-left: 15px;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      margin: 0px;
+      color: #999;
+      }
+    .list3 dd {
+      float:left;
+      margin: 0px;
+      width: 60%;
+      height: inherit;
+      }
+    p {display: inline-block; float: left;}
+
+    .footer {
+      background-color: #fff;
+      position: fixed;
+      z-index: 1;
+      bottom: 0px;
+      max-width: 720px;
+      width: 100%;
+      
+      height: 50px;
+      text-align: center;   
+      }
+    button {
+      cursor: pointer;
+      background: #fff;
+      width: 44%;
+      margin: 0 2%;
+      border: 1px solid #5fc0cd;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      outline: medium;
+      color: #5fc0cd;
+      
+      font-family: "微软雅黑 light";
+      }
+    button:active {
+      background: #5fc0cd;
+      color: #fff;
+      border:none;
+      }
+    
+    @media (min-width: 800px) {
+      .header,.headercopy {height: 88px;}
+      .header span {line-height: 88px;}
+      .card {height: 320px;}
+      .card .part1 .img {width: 170px;}
+      .card .part2 .name {margin-top: 110px;margin-bottom: 20px;}
+      .card .part2 .add img {width: 20px;}
+      span,dt,dd {font-size: 32px;}
+      span span {font-size: 28px;}
+      .add {font-size: 24px;}
+      .list1,.list2,.list3 {height: 100px;}
+      .list1 .power {font-size: 32px; margin-left: 30px;}
+      .list2 {height: 100px;}
+      .condition {font-size: 31px;}
+      .list3 dd {font-size: 26px;}
+      .footer {padding-bottom: 40px;}
+      button {height: 88px;font-size: 34px;}
+    }   
+    @media (max-width: 800px) {
+      .header,.headercopy {height: 66px;}
+      .header span {line-height: 66px;}
+      .card {height: 240px;}
+      .card .part1 .img {width: 127.5px;}
+      .card .part2 .name {margin-top: 82.5px;margin-bottom: 15px;}
+      .card .part2 .add img {width: 15px;}
+      span,dt,dd,.condition {font-size: 24px;}
+      span span {font-size: 26px;}
+      .add {font-size: 18px;}
+      .list1,.list2,.list3 {height: 75px;}
+      .list1 .power {font-size: 24px; margin-left: 22.5px;}
+      .list3 dd {font-size: 18px;}
+      .footer {padding-bottom: 30px;}
+      button {height: 66px;font-size: 25.5px;}
+    }
+    @media (max-width: 640px) {
+      .header,.headercopy{height: 44px;}
+      .header span {line-height: 44px;}
+      .card {height: 160px;}
+      .card .part1 .img {width: 85px;}
+      .card .part2 .name {margin-top: 55px;margin-bottom: 10px;}
+      .card .part2 .add img {width: 10px;}
+      span,dt,dd,.condition {font-size: 16px;}
+      span span {font-size: 14px;}
+      .add {font-size: 12px;}
+      .list1,.list2,.list3 {height: 50px;}
+      .list1 .power {font-size: 16px; margin-left: 15px;}
+      .list3 dd {font-size: 12px;}
+      .footer {padding-bottom: 20px;}
+      button {height: 44px;font-size: 17px;}
+    }
+    
+    

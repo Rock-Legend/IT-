@@ -1,67 +1,50 @@
-
-body {
+    body {margin: 0; background: #000;}
+    .box0 {
         background-color: #eff0f4;
-        margin: 0px;
-        width: 100%;
-        height: 100%;
+        margin: 0 auto;
+        max-width: 720px;
+        height: 50rem;
+        
+
     }
     .header {
         background-color: #5fc0cd;
-        position: fixed;
-        z-index: 1;
         width: 100%;
+        margin: 0 auto;
+        text-align: center;
         height: 44px;
+        color: #fff;
     }
     .header .part1 {
         float: left;
-        position: relative;
-        width: 20%;
-        height: inherit;      
+        font-family: "Microsoft YaHei light";
+        font-size: 120%;
+        text-align: center;
+        width: 17%;
+        height: 44px;
+        line-height: 44px;      
     }
-    .header .part2 {
+    .header span {
         float: left;
-        position: relative;
+        display: block;
+        font-family: "Microsoft YaHei light";
+        font-size: 130%;
+        text-align: center;
         margin: auto;
-        width: 60%;
-        height: inherit;   
+        width: 66%;
+        height: 44px;
+        line-height: 44px;   
     } 
     .header .part3 {
-        float: left;
-        position: relative;
-        width: 20%;
-        height: inherit;
-    }
-    .header .part1 .close{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        text-transform: translate(-50%,-50%);
-        -webkit-transform:translate(-50%,-50%);
-        -moz-transform:translate(-50%,-50%);
-        -ms-transform:translate(-50%,-50%);   
-    }
-    .header .part1 .close .img {width: 100%;}
-    .header .part2 .title {
+        float: right;
+        font-family: "Microsoft YaHei light";
+        font-size: 120%;
         text-align: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        text-transform: translate(-50%,-50%);
-        -webkit-transform:translate(-50%,-50%);
-        -moz-transform:translate(-50%,-50%);
-        -ms-transform:translate(-50%,-50%);
+        width: 17%;
+        height: 44px;
+        line-height: 44px;
     }
-    .header .part2 .title .img {width: 70%;}
-    .header .part3 .register {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        text-transform: translate(-50%,-50%);
-        -webkit-transform:translate(-50%,-50%);
-        -moz-transform:translate(-50%,-50%);
-        -ms-transform:translate(-50%,-50%);   
-    }
-    .header .part3 .register .img {width: 100%;}
+    a {cursor: pointer;}
     .load {
         background-color: #fff;
         position: relative;
@@ -73,43 +56,51 @@ body {
     }
     .load .account {
         position: absolute;
-        border-right: 3px solid #f2f4f4;
+        border-right: 2px solid #f2f4f4;
         background: url(images/phone.png) no-repeat 50%;
-        width: 20%;
+        max-background-size: 40%;
+        width: 18%;
         height: inherit;
     }
     input {
-        padding-left: 22%;
+        padding-left: 20%;
         border: none;
-        width: 79%;
+        width: 70%;
         height: 100%;
         font-size: 100%;
+        font-family: "Microsoft YaHei light";
         outline: medium;
-    }   
+    } 
     .load .password {
         position: absolute;
-        border-right: 3px solid #f2f4f4;
+        border-right: 2px solid #f2f4f4;
         background: url(images/passwordmin.png) no-repeat 50%;
-        width: 20%;
+        max-background-size: 40%;
+        width: 18%;
         height: inherit;
     }
     button {
         cursor: pointer;
         background-color: #5fc0cd;
-        margin: 7.8% auto 12px;
+        margin: 7.8% auto .5em;
         width: 100%;
         height: 50px;
-        padding-top: 3%;
-        padding-bottom: 5%;
+        
         border: none;
-        font-size: 140%;
+        font-size: 130%;
+        font-family: "Microsoft YaHei light";
         text-align: center;
         color: #fff;
     }  
     .forgetpsd {
         float: right;
-        margin-right: 12px;
-        font-size: 100%;
+        margin-right: .5em;
+        font-size: 120%;
+        font-family: "Microsoft YaHei light";
         color: #83ccd7;
     }
-    .forgetpsd a { text-decoration: none;}
+    .footer {
+        position: absolute;
+        max-width: 720px;
+        height: 100%;
+    }

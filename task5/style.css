@@ -1,25 +1,27 @@
     
     body {
-      margin: 0px;  
-      width:100%;
-      height: 100%;
+      margin: 0px; 
+      max-width: 720px; 
+      max-height: 1280px;
+      margin: 0 auto;
       }
     .header {
       background-color: #5fc0cd;
+      max-width: 720px;
       width: 100%;
-      height: 44px;
+      height: 3rem;
       position: fixed;
       z-index: 5;
       top: 0;
       text-align: center;
       }
     .headercopy {
-      height: 44px;
+      height: 3rem;
       }
     .header .part1 {
       float: left;
       position: relative;
-      width: 12.5%;
+      width: 10%;
       height: inherit;
       }
     .header .part1 .back {
@@ -33,33 +35,32 @@
       }
     .header .part1 .back .img {width: 50%;}
     .header .part2 {
-      float: left;
-      width: 80%;
+      float: right;
+      width: 10%;
       height: inherit;
-      color: #fff;
+      }   
+    .header span {
       text-align: center;
       line-height: 44px;
-      }   
-    .header .part3 {
-      float: left;
-      width: 12.5%;
-      height: inherit;
-      }
+      color: #fff;
+      font-size: 18px;
+      font-family: "黑体 light";
+    }
     .card {
       background:url(images/123.png) no-repeat;
       background-size: cover;
       width: 100%;
-      height: 150px;
+      height: 160px;
       }
     .card .part1 {
       position: relative;
       float: left;
       width: 33.3%;
-      height: 100%;
+      height: 160px;
       overflow: hidden;
       }
     .card .part1 .img {
-      max-width: 70%;
+      width: 80px;
       position: absolute;
       top: 50%; left: 50%;
       text-transform: translate(-50%,-50%);
@@ -74,14 +75,17 @@
       color: #fff;
       }
     .card .part2 .name{
-      width: 100%;
-      margin-top: 52px;
-      font-size: 120%;
+      width: 200px;
+      margin-top: 55px;
+      margin-bottom: 10px;
+      font-size: 1.125rem; 
+      font-family: "黑体";
       }
     .card .part2 .add {
-      width: 100%;
-      font-size: 80%;
+      width: 200px;
+      font-size: .75rem;
       }
+    .card .part2 .add img {width: 10px;margin-bottom: -2px;}
     .list1 {
       position: relative;
       width: 100%;
@@ -91,17 +95,18 @@
     .list1 .power {
       position: absolute;
       top: 30%;
-      border-left:3px solid #5fc0cd;
-      margin-left: 4.2%; 
+      border-left:2px solid #5fc0cd;
+      margin-left: 15px; 
+      font-family: "黑体";
+      font-size: 1.0625rem;
       }
     .list2 {
-      
-      margin-left: 4.2%;
-      margin-top: 0px;
-      margin-bottom: 0px; 
+      margin: 0px 0px 0px 15px;
       padding: 0px;
-      height: 3.125rem;/*50px*/
+      height: 50px;
       border-bottom: 1px solid #e1e5e7; 
+      font-family: "黑体";
+      font-size: 1rem;
       }
     .list2 dt {
       float: left;
@@ -117,12 +122,14 @@
     .list3 {
       margin: 0px;
       width: 100%;
-      height: 3.125rem;/*50px*/
+      height: 50px;
       border-bottom: 1px solid #e1e5e7;
+      font-family: "黑体";
+      font-size: 1rem;
       }
     .list3 dt {
       float: left; 
-      padding-left: 4.2%;
+      padding-left: 15px;
       padding-top: 1em;
       padding-bottom: 1em;
       margin: 0px;
@@ -145,6 +152,7 @@
       position: fixed;
       z-index: 1;
       bottom: 0px;
+      max-width: 720px;
       width: 100%;
       padding-bottom: 16px;
       height: 50px;
@@ -157,16 +165,20 @@
       height: 44px;
       margin: 0 2%;
       border: 1px solid #5fc0cd;
-      border-radius: 10px;
-      -webkit-border-radius: 10px;
-      -moz-border-radius: 10px;
-      -ms-border-radius: 10px;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
       outline: medium;
       color: #5fc0cd;
-      font-size: 100%;
+      font-size: 1.0625rem;
+      font-family: "微软雅黑 light";
       }
     button:active {
       background: #5fc0cd;
       color: #fff;
       border:none;
       }
+   
+    
+    
