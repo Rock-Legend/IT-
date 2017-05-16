@@ -1,0 +1,222 @@
+@charset "UTF-8";
+/**
+ * @authors Rock Legend
+ * @date    2017-03-22 17:17:55
+ */
+a {
+  text-decoration: none;
+  color: #26a26f;
+}
+h4 {
+  font-size: .18rem;
+}
+p {
+  line-height: 1.5;
+}
+.content {
+  max-width: 1200px;
+  min-width: 300px;
+  margin: 1.4rem auto 0;
+  font-size: 0;
+  text-align: center;
+  zoom: 1;
+}
+.content:after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+.content h3 {
+  margin-bottom: .68rem;
+  font-size: .18rem;
+}
+.content .content-main {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.content .content-main img {
+  width: .9rem;
+}
+.content .content-main p {
+  font-size: .16rem;
+  color: #999999;
+  text-align: justify;
+}
+.statistics {
+  font-size: .18rem;
+  padding-top: .65rem;
+  border-left: 1px dashed #dedede;
+  /* a{} */
+}
+.statistics p {
+  padding-bottom: 16px;
+}
+.circle {
+  width: .7rem;
+  height: .7rem;
+  background-color: #FFF;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.circle span {
+  line-height: .7rem;
+  display: block;
+  color: #29b078;
+  text-align: center;
+  font-size: .18rem;
+}
+.box-shadow {
+  box-shadow: 0 3px 1px #e2e2e2;
+  /*底边阴影*/
+}
+.step {
+  color: #999;
+  width: 1.5rem;
+  margin-left: .1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-size: .14rem;
+}
+.next {
+  width: .32rem;
+}
+.step,
+.next {
+  display: inline-block;
+  vertical-align: middle;
+}
+.card {
+  display: inline-block;
+  padding: 0 30px;
+  width: 70%;
+  background-color: #ffffff;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.card p {
+  margin-bottom: .4rem;
+  font-size: .16rem;
+  text-align: left;
+  color: #999999;
+}
+.portrait {
+  width: 1.28rem;
+  height: 1.28rem;
+  margin: .19rem auto .44rem;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+.avatar {
+  background: url(../images/Avatar.png) no-repeat 50%;
+  background-size: contain;
+}
+.eva {
+  background: url(../images/Eva.png) no-repeat 50%;
+  background-size: contain;
+}
+.anna {
+  background: url(../images/Anna.png) no-repeat 50%;
+  background-size: contain;
+}
+.piter {
+  background: url(../images/Piter.png) no-repeat 50%;
+  background-size: contain;
+}
+.cooperative {
+  float: left;
+  width: 99%;
+  height: 1.78rem;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.alibaba {
+  background: url(../images/alibaba.png) no-repeat 50% #ffffff;
+  background-size: contain;
+}
+.ksyun {
+  background: url(../images/ksyun.png) no-repeat 50% #ffffff;
+  background-size: contain;
+}
+.huanxin {
+  background: url(../images/huanxin.png) no-repeat 50% #ffffff;
+  background-size: contain;
+}
+.yuntongxun {
+  background: url(../images/yuntongxun.png) no-repeat 50% #ffffff;
+  background-size: contain;
+}
+.qiniu {
+  background: url(../images/qiniu.png) no-repeat 50% #ffffff;
+  background-size: contain;
+}
+.ksyun:hover,
+.huanxin:hover,
+.yuntongxun:hover,
+.alibaba:hover,
+.qiniu:hover {
+  box-shadow: 0px 0px 10px #999;
+}
+.link-group {
+  width: 100%;
+  margin-top: .92rem;
+  padding-top: 1px;
+  background-color: #fff;
+  zoom: 1;
+}
+.link-group:after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+.link-group a {
+  color: #999;
+  text-decoration: none;
+}
+.link-group a:hover {
+  border-bottom: 1px solid #29b078;
+}
+.link-group-main {
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+.link-group-main h4 {
+  margin-top: .24rem;
+  margin-bottom: .28rem;
+}
+.link-group-main div {
+  font-size: .14rem;
+  margin-bottom: .16rem;
+}
+@media screen and (max-width: 1199px) {
+  .md-spacing {
+    margin: 15px 0;
+  }
+}
+@media screen and (max-width: 969px) {
+  .content .content-main p {
+    text-align: center;
+  }
+  .step {
+    width: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .step {
+    width: 3.2rem;
+    text-align: center;
+  }
+}

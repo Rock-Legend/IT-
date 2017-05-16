@@ -1,0 +1,224 @@
+@charset "UTF-8";
+/**
+ * @authors Rock Legend
+ * @date    2017-03-23 14:44:22
+ */
+.topshow {
+  width: 100%;
+  padding: 2.1% 0 0.5%;
+  background: url(../images/image1.png) no-repeat 50%;
+  background-size: cover;
+}
+.topshow .tour {
+  max-width: 1200px;
+  min-width: 310px;
+  margin: 0 auto;
+}
+.topshow .tour .part1 {
+  width: 18%;
+  margin-left: 42%;
+  padding: 3% 0;
+  display: inline-block;
+}
+.topshow .tour .part1 p {
+  margin: 0;
+  font-size: .44rem;
+  color: #fff;
+  text-align: right;
+}
+.topshow .tour .part1 span {
+  display: block;
+  font-size: .2rem;
+  color: #fff;
+  text-align: right;
+}
+.topshow .tour .part2 {
+  width: 25%;
+  height: ;
+  padding: 0 0 0 1% ;
+  display: inline-block;
+}
+.topshow .tour .part2 p {
+  font-size: .6rem;
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+}
+.main-nav {
+  padding: .2rem 0 .2rem .15rem;
+  max-width: 1200px;
+  color: #000;
+  background-color: #fff;
+  font-size: .2rem;
+}
+.main-nav a {
+  color: #000;
+}
+.content {
+  max-width: 1200px;
+  min-width: 310px;
+  margin: 1.02rem auto 0;
+  zoom: 1;
+}
+.content:after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+.side-nav {
+  margin: 0 auto;
+  padding: 4px 0 .4rem;
+  width: 94%;
+  background-color: #fff;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.side-nav a {
+  padding: .4rem .6rem 0 .8rem;
+  display: block;
+  text-align: left;
+  font-size: .14rem;
+  color: #29b078;
+  text-decoration: none;
+}
+.side-nav a:hover {
+  color: #ff650e;
+}
+.side-nav a:hover #circle {
+  background-color: #f9a372;
+}
+.nav-header {
+  padding: .2rem 34% .25rem;
+  font-size: .16rem;
+  border-bottom: 1px solid #e6e6e6;
+  text-align: center;
+}
+.content-main {
+  margin: 0 auto 1rem;
+  width: 96%;
+  background-color: #fff;
+  font-size: 0;
+  color: #999999;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.content-main p {
+  padding: .34rem .5rem 0;
+  text-align: left;
+  font-size: .14rem;
+  line-height: 2;
+  text-indent: 28px;
+  clear: both;
+}
+.box-shadow {
+  box-shadow: 1px 1px 3px 1px #e2e2e2;
+  /*底边阴影*/
+}
+.company-logo {
+  width: 28%;
+  height: 186px;
+  display: inline-block;
+  border-bottom: 1px solid #e6e6e6;
+  background: url(../images/tudou3.png) no-repeat 50%;
+  background-size: contain;
+}
+.company-brief {
+  width: 72%;
+  height: 186px;
+  float: right;
+  display: inline-block;
+  border-bottom: 1px solid #e6e6e6;
+}
+.company-brief .company-brief-main {
+  padding-top: 26px;
+  padding-right: 45px;
+  text-align: left;
+  font-size: 14px;
+}
+.company-brief .company-brief-main p {
+  padding: 0;
+}
+#circle {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border: 1px solid #ff640c;
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 490%;
+  }
+  .side-nav a {
+    padding-left: 40%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  html {
+    font-size: 490%;
+  }
+  .side-nav a {
+    padding-left: 39%;
+  }
+}
+@media screen and (max-width: 997px) {
+  html {
+    font-size: 490%;
+  }
+  .side-nav a {
+    padding-left: 38%;
+  }
+}
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 312.5%;
+  }
+  .side-nav {
+    margin-bottom: 15px;
+  }
+  .side-nav a {
+    padding-left: 45%;
+  }
+  .company-logo,
+  .company-brief {
+    width: 100%;
+  }
+  .company-logo {
+    height: 100px;
+    border: none;
+  }
+  .company-brief {
+    height: auto;
+  }
+  .company-brief .company-brief-main {
+    padding: 0 30px 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .topshow .tour .part1 {
+    margin-left: 30%;
+    width: 30%;
+  }
+  .topshow .tour .part1 p {
+    font-size: .34rem;
+  }
+  .topshow .tour .part2 {
+    width: 26%;
+  }
+  .topshow .tour .part2 p {
+    font-size: .4rem;
+  }
+  .side-nav a {
+    padding-left: 42%;
+  }
+}

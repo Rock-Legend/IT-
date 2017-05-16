@@ -1,0 +1,196 @@
+@charset "UTF-8";
+/**
+ * @authors Rock Legend
+ * @date    2017-03-23 14:44:22
+ */
+@import "common";
+@maxw:1200px;
+@minw:310px;
+@bgc:#fafafa;
+@font-c:#999999;
+@sidefont-c:#29b078;
+@circle-c:#ff640c;
+@sidefont-read-c:#ff650e;
+@side-bdc:#e6e6e6;
+.topshow {
+	width: 100%;padding: 2.1% 0 0.5%;
+	background: url(../images/image1.png) no-repeat 50%;
+    background-size: cover;
+    .tour {
+    	max-width: @maxw;
+    	min-width: @minw;
+    	margin: 0 auto; 
+    	.part1 {
+	    	width: 18%;
+	        margin-left: 42%;
+	    	padding: 3% 0;
+	    	display: inline-block;
+	    	p {
+		        margin: 0; 
+		        font-size: .44rem;
+		        color: #fff;
+		        text-align: right;
+		    }
+		    span {
+		        display: block; 
+		        font-size: .2rem; 
+		        color:#fff; 
+		        text-align: right;
+		    }
+	    } 
+	    .part2 {
+	    	width: 25%;
+	    	height: ;
+	    	padding: 0 0 0 1% ;
+	    	display: inline-block;
+	    	p { 
+		        font-size: .6rem; 
+		        color: #fff; 
+		        display: inline-block;
+		        vertical-align: middle;
+		    }
+	    }
+    }
+}
+.main-nav { 
+        padding: .2rem 0 .2rem .15rem; 
+        max-width: @maxw; 
+        color: #000; 
+        background-color: #fff;
+        font-size: .2rem;
+        a {color: #000;}
+    } 
+
+.content {
+	max-width:@maxw;
+	min-width:@minw;
+	margin: 1.02rem auto 0;
+	.clearfix();
+}
+.side-nav {
+	margin: 0 auto;
+	padding:4px 0 .4rem; 
+	width: (100% - 6px);
+	background-color: #fff;
+	.border-radius(5px);
+	a { 
+    	padding: .4rem .6rem 0 .8rem;
+    	display: block;
+    	text-align: left;
+    	font-size: .14rem;
+    	color: @sidefont-c;
+    	text-decoration: none;
+    	&:hover {color: @sidefont-read-c;}
+    }	    
+}
+.side-nav a:hover #circle {background-color: #f9a372;}
+.nav-header {
+	padding: .2rem 34% .25rem;
+	font-size: .16rem;
+	border-bottom: 1px solid @side-bdc;
+    text-align: center;
+}
+.content-main{
+    margin: 0 auto 1rem;
+    width: (100% - 4px);
+    background-color: #fff;
+    font-size: 0;
+    color: @font-c;
+    .border-radius(5px);
+	p {
+		padding: .34rem .5rem 0;
+		text-align: left;
+		font-size: .14rem;
+		line-height: 2; 
+		text-indent: 28px;
+        clear: both;
+    }
+}
+.box-shadow {  
+        box-shadow: 1px 1px 3px 1px #e2e2e2; /*底边阴影*/  
+}
+.company-logo {
+	width: 28%;
+	height: 186px;
+	display: inline-block;
+	border-bottom: 1px solid @side-bdc;
+	background: url(../images/tudou3.png) no-repeat 50%;
+	background-size: contain;
+}
+.company-brief {
+	width: 72%;
+	height: 186px;
+	float: right;
+	display: inline-block;
+	border-bottom: 1px solid @side-bdc;
+	.company-brief-main {
+	    padding-top: 26px;
+	    padding-right: 45px;
+		text-align: left;
+		font-size: 14px;
+		p{padding:0;}
+	}
+}
+#circle {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	.border-radius(50%);
+	border: 1px solid @circle-c;
+	
+}
+@media screen and (min-width:1200px) {
+	html{font-size: 490%;}
+	.side-nav {
+		a{padding-left: 40%;}
+	}
+}
+@media screen and (max-width:1199px) {
+	html{font-size: 490%;}
+	.side-nav {
+		a{padding-left: 39%;}
+	}
+}
+@media screen and (max-width:997px) {
+	html{font-size: 490%;}
+	.side-nav {
+		a{padding-left: 38%;}
+	}
+}
+@media screen and (max-width:767px) {
+	html{font-size: 312.5%;}
+	.side-nav {
+		margin-bottom: 15px;
+		a{padding-left: 45%;}
+	}
+	.company-logo, .company-brief {
+		width: 100%;
+	}
+	.company-logo {height:100px; border: none;}
+	.company-brief {
+		height: auto;
+		.company-brief-main{padding: 0 30px 0;}
+    }
+}
+@media screen and (max-width:500px) {
+	.topshow {
+		.tour{
+	    	.part1{
+	    		margin-left: 30%;
+	    		width: 30%;
+	    		p{font-size: .34rem;}
+	    	}
+	    	.part2{
+	    		width: 26%;
+	    		p{font-size: .4rem;}
+	    	}
+	    }
+	}
+    .side-nav {
+		a{padding-left: 42%;}
+	}
+}
+
+
+
+	

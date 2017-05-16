@@ -1,0 +1,215 @@
+@charset "UTF-8";
+/**
+ * @authors Rock Legend
+ * @date    2017-03-23 19:24:03
+ */
+.content-nav {
+  max-width: 1200px;
+  min-width: 300px;
+  margin: 0 auto;
+  border-bottom: 1px solid #d0d6d9;
+}
+h4 {
+  margin: .3rem auto;
+  color: #29b078;
+  font-size: .16rem;
+}
+h4 a {
+  color: #000;
+}
+.profession {
+  max-width: 1200px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: .2rem 0;
+  font-size: .14rem;
+  border-bottom: 1px solid #edf1f2;
+}
+.profession span {
+  color: #999999;
+}
+.profession a {
+  display: inline-block;
+  margin: 0 .28rem;
+  padding: 2px;
+  text-align: center;
+  color: #000;
+}
+.profession a:hover {
+  background-color: #29b078;
+  color: #fff;
+}
+.content {
+  max-width: 1200px;
+  min-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  zoom: 1;
+}
+.content:after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+.content-main {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  margin: .15rem;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  box-shadow: 0 0 1px 2px #ddd;
+  font-size: .12rem;
+  cursor: pointer;
+  background-color: #fff;
+}
+.content-main > img {
+  width: 1.39rem;
+  height: 1.39rem;
+  margin: .2rem 0 0 .15rem;
+  display: inline-block;
+  float: left;
+}
+.content-main .caption {
+  width: 56%;
+  height: 1.5rem;
+  margin-top: .15rem;
+  margin-left: 8px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.content-main .caption h5 {
+  font-size: .16rem;
+}
+.content-main .caption p {
+  font-size: .14rem;
+}
+.content-main .pay {
+  display: inline-block;
+  width: 40%;
+  height: 122px;
+  line-height: 120px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  color: #999;
+}
+.content-main .pay-item {
+  width: 60%;
+  display: inline-block;
+  float: right;
+}
+.content-main .pay-item .pay-item-main {
+  width: 100%;
+  border-left: 1px solid #ddd;
+}
+.content-main .pay-item .pay-item-main div {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #ddd;
+}
+.content-main h5 {
+  margin-top: .13rem;
+  margin-bottom: .13rem;
+  font-size: .14rem;
+}
+.content-main .note {
+  color: #ddd;
+  padding-top: 13px;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+.table {
+  border-top: 1px solid #ddd;
+  margin: 0;
+  width: 100%;
+  font-size: .12rem;
+}
+.table > div {
+  display: inline-block;
+  height: .4rem;
+  line-height: .4rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+.table > div span {
+  color: #999;
+}
+.table > div img {
+  margin-bottom: -1px;
+  width: 16px;
+  height: 15px;
+}
+.table .part1 {
+  float: left;
+  width: 100%;
+  padding-left: 8px;
+}
+.table .part2 {
+  float: right;
+  width: 100%;
+  padding-left: 8px;
+  border-left: 1px solid #ddd;
+}
+.opac {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+.opac h4 {
+  color: #fff;
+  text-align: center;
+}
+.opac .opac-main {
+  padding: .8rem 26px;
+}
+.content-main:hover .opac {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  font-size: 16px;
+  color: #fff;
+  line-height: 20px;
+  text-align: left;
+  opacity: .8;
+  background-color: #000;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  transition-duration: 4s;
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  /* IE 9 */
+  -webkit-transform: rotate(360deg);
+  /* Safari and Chrome */
+}
+@media screen and (max-width: 1199px) {
+  .content-main > img {
+    width: 1.15rem;
+    height: 1.2rem;
+  }
+  .content-main .caption {
+    width: 54%;
+    height: 1.3rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .content-main > img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .content-main .caption {
+    width: 68%;
+    height: 1.6rem;
+  }
+}

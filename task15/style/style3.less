@@ -1,0 +1,193 @@
+@charset "UTF-8";
+/**
+ * @authors Rock Legend
+ * @date    2017-03-23 19:24:03
+ */
+@import "common";
+@ffy:"微软雅黑 light";
+@maxw:1200px;
+@minw:300px;
+@w:100%;
+@bodybgc:#fafafa;
+@ft-c:#999;
+@headbgc:#29b078;
+@content-nav-bdc:#d0d6d9;
+@profession-bdc:#edf1f2;
+.content-nav {
+	max-width:@maxw;
+	min-width: @minw;
+	margin:0 auto;
+    border-bottom: 1px solid @content-nav-bdc;
+}
+	h4 {
+	margin: .3rem auto;
+	color: @headbgc;
+	font-size: .16rem;
+	a {color: #000;}
+}  
+.profession{
+	max-width:@maxw;
+	min-width: @minw;
+	margin: 0 auto;
+	padding:.2rem 0;
+	font-size: .14rem;
+	border-bottom: 1px solid @profession-bdc;
+	span{color:@ft-c;}
+	a{
+		display: inline-block;
+		margin: 0 .28rem;padding: 2px;
+		text-align: center;
+		color: #000;
+		&:hover {background-color: @headbgc;color: #fff;}
+	}
+}
+.content {
+	max-width:@maxw;
+	min-width: @minw;
+	width: 100%;
+	margin: 0 auto;
+	.clearfix();
+}
+.content-main {
+	position: relative;
+	overflow: hidden;
+    border: none; 
+    // padding:4px 0 10px;
+    margin: .15rem;
+    .border-radius(5px);
+    box-shadow: 0 0 1px 2px #ddd;
+    font-size: .12rem;
+    cursor: pointer;
+    background-color: #fff;
+    &>img {
+	    width:1.39rem;
+	    height:1.39rem; 
+	    margin:.2rem 0 0 .15rem;
+	    display: inline-block;
+	    float: left;
+	}
+	.caption {
+		width:56%;
+		height: 1.5rem; 
+		margin-top: .15rem;
+		margin-left: 8px; 
+		margin-bottom: 15px;
+		display: inline-block;
+		h5 {font-size: .16rem;}
+		p{font-size: .14rem;}
+	}
+	.pay {
+		display:inline-block;
+	    width:40%;
+	    height:122px;
+	    line-height:120px;
+	    text-align:center;
+	    border-bottom:1px solid #ddd;
+	    color: #999;
+	}
+	.pay-item {
+	    width:60%;
+	    display:inline-block;
+	    float:right;
+	    .pay-item-main {
+	    	width: 100%;
+	    	border-left:1px solid #ddd;
+	    	div {
+		    	height:40px;
+		    	line-height:40px;
+		    	border-bottom:1px solid #ddd;
+		    }
+	    }  
+	}
+	h5 {margin-top:.13rem;margin-bottom:.13rem;font-size: .14rem;}
+	.note {
+		color:#ddd;
+		padding-top:13px;
+		border-top:1px solid #ddd;
+		text-align: center;
+	}
+}
+.table {
+	border-top: 1px solid #ddd;
+	margin: 0;
+	width: 100%;
+	font-size: .12rem;
+	&>div {
+		display: inline-block;
+		height: .4rem;
+		line-height: .4rem;
+		border-bottom: 1px solid #ddd;
+		text-align: left;
+		span {color:#999;}
+		img {margin-bottom: -1px;width:16px;height:15px;}
+	}
+	.part1{
+		.fl();
+		width:100%; 
+		padding-left: 8px;
+	}
+	.part2 {
+		.fr();
+		width:100%; 
+		padding-left: 8px; 
+		border-left:1px solid #ddd;
+	}
+}
+.opac {
+	position: absolute; 
+	opacity: 0;
+	width: 0;
+	height: 0;
+	padding: 0;
+	h4 {color:#fff;text-align: center;}
+	.opac-main {
+		padding: .8rem 26px;
+	}
+}
+.content-main:hover .opac {
+    width:100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    font-size: 16px;
+    color: #fff;
+    line-height: 20px;
+    text-align: left;
+    opacity: .8;
+    background-color: #000; 
+    .border-radius(5px);
+    transition-duration:4s;
+	transform: rotate(360deg);
+    -ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Safari and Chrome */
+    // transform: rotateY(360deg);
+    // -webkit-transform: rotateY(360deg); /* Safari 与 Chrome */
+}
+ 
+@media screen and (max-width: 1199px) {
+	.content-main {
+	    &>img {
+		    width:1.15rem;
+		    height:1.2rem; 
+        }
+        .caption {
+        	width: 54%;
+			height: 1.3rem;
+	    }
+	}
+}
+@media screen and (max-width: 767px) {
+	.content-main {
+	    &>img {
+		    width:1.5rem;
+		    height:1.5rem; 
+        }
+        .caption {
+        	width: 68%;
+			height: 1.6rem;
+	    }
+     }
+}
+
