@@ -1,0 +1,129 @@
+    /*任务8合作企业代码*/
+    .topshow {
+    	width: 100%;padding: 2% 0;
+    	background: url(../images/image3.png) no-repeat 50%;
+        background-size: cover;
+    }
+    .tour {max-width: 1200px;margin: 0 auto; }
+    .tour .part1 {
+    	width: 18%;
+    	height: ;
+        margin-left: 42%;
+    	padding: 3% 0;
+    	display: inline-block;
+    }
+    .tour .part2 {
+    	width: 25%;
+    	height: ;
+    	padding: 0 0 0 1% ;
+    	display: inline-block;
+    }
+    .tour .part1 p {
+        margin: 0; 
+        font-size: 4.4rem;
+        color: #fff;
+        text-align: right;
+    }
+    .tour .part1 span {
+        display: block; 
+        font-size: 2rem; 
+        color:#fff; 
+        text-align: right;
+    }
+    .tour .part2 p { 
+        font-size: 6rem; 
+        color: #fff; 
+        display: inline-block;
+        vertical-align: super;
+    }
+    .main-nav {
+        margin: 0 auto; 
+        padding: 20px 0 20px 15px; 
+        max-width: 1200px; 
+        color: #000; 
+        background-color: #fff;
+    }
+    .main-nav a {color: #000;}
+    .row-style{max-width:1200px;margin: 102px auto 0;}
+    .thumbnail {padding:4px 0 40px; }
+    .nav-header {
+    	padding: 20px 34% 25px;
+    	font-size: 16px;
+    	border-bottom: 1px solid #e6e6e6;
+        text-align: center;
+    }
+    .thumbnail a { 
+    	padding: 40px 40px 0 85px;
+    	display: block;
+    	text-align: left;
+    	color: #29b078;
+    	text-decoration: none;
+    }
+    .thumbnail a:hover {color: #ff650e;}
+    .thumbnail p {
+    	text-align: left;
+    	padding: 40px 62px 0;
+    	font-size: 14px;
+    	line-height: 24px; 
+    	text-indent: 28px;
+    }
+    .hr { height:1px;width:100%; border:none;border-top:1px solid ;}
+    .company-logo {
+    	width: 26%;/*236px*/
+    	height: 178px;
+    	display: inline-block;
+    	border-bottom: 1px solid #e6e6e6;
+    	background: url(../images/tudou3.png) no-repeat 50%/cover;
+    }
+    .company-brief {
+    	width: 74%;/*632px*/
+    	height: 178px;
+        padding: 26px 6% 15px 0;
+    	display: inline-block; 
+    	float: right;
+    	text-align: left;
+    	font-size: 14px;
+    	border-bottom: 1px solid #e6e6e6;
+    }
+    .company-brief span {line-height: 24px;}
+    #circle {
+    	width: 8px;
+    	height: 8px;
+    	border-radius: 50%;
+    	-webkit-border-radius: 50%;
+    	-moz-border-radius: 50%;
+    	-ms-border-radius: 50%;
+    	border: 1px solid #ff640c;
+    	display: inline-block;
+    }
+    .thumbnail a:hover #circle {background-color: #f9a372;}
+
+    @media screen and (min-width: 1024px) {
+        html {font-size: 62.5%;}     
+    }
+    @media screen and (max-width: 1024px) {
+        html {font-size: 31.25%;height: 50%;}
+        .tour .part1 {margin-left: 40%;}
+        .row-style{margin: 80px auto 0;}
+        .thumbnail a { padding: 40px 24% 0 35%;}
+        .company-logo {width: 32%;height: 198px;}
+        .company-brief {width: 68%;height: 198px;padding: 26px 3% 15px 3%;
+        }
+        .thumbnail p {padding: 30px 6% 0;}
+    }
+    @media screen and (max-width: 767px) {
+        html {font-size: 25%;}
+        .row-style{margin: 60px auto 0;}
+        .thumbnail a { padding: 36px 24% 0 44%;} 
+        .thumbnail p {padding: 25px 6% 0;} 
+    }
+    @media screen and (max-width: 500px) { 
+        html {font-size: 22%;}
+        .tour .part1 {width: 30%;margin-left: 32%;}
+        .tour .part2 {width: 30%;}
+        .thumbnail a { padding: 30px 24% 0 39.5%;}
+        .thumbnail {text-align: center;}
+        .company-logo {width: 70%;border:none;margin: 0 auto;}
+        .company-brief {width: 100%;height: 100%;padding: 0 6% 15px;}
+        .thumbnail p {overflow: hidden;}
+    }

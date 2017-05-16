@@ -1,0 +1,94 @@
+    /*任务8职业介绍部分代码*/
+    h4 {margin: 30px auto;color: #29b078;}
+    h4 a {color: #000;}
+    .profession {padding: 30px;border-bottom: 1px solid #edf1f2;}
+    .profession span {color: #999;}
+    hr {border-top:1px solid #d0d6d9;}
+     .btn-link {color: #000; border: none;border-radius: 0;}
+     .btn-link:hover, .btn-link:active {color:#fff;text-decoration: none;background-color: #29b078;}
+    .content {margin: 0;}
+    .row-style {margin: 0;}
+    .thumbnail {
+        border: none; 
+        padding:4px 0 10px;
+        box-shadow: 0 0 1px 2px #ddd;
+        position: absolute;
+    }
+    .thumbnail>img {
+        width:139px;
+        height:139px; 
+        margin:20px 0 17px 11px;
+        display: inline-block;
+        float: left;
+    }
+    .thumbnail .caption {width:58%;height: 160px; margin-top: 15px; display: inline-block;}
+    .caption>h5 {font-size: 16px;}
+    .caption p {}
+    .table-border {border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; margin: 0;}
+    .table-border td {width:50%;}
+    .table-border .border {border-left:1px solid #ddd;}
+    .table-border td span {color:#999;}
+    .table-border td img {width:16px;height:15px;}
+    .thumbnail .pay {
+        width:40%;
+        height:120px;
+        line-height:120px;
+        text-align:center;
+        display:inline-block;
+        border-bottom:1px solid #ddd;
+        color: #999;
+    }
+    .thumbnail .pay-item {
+        width:60%;
+        display:inline-block;
+        float:right;
+        border-left:1px solid #ddd;
+    }
+    .pay-item div {height:40px;line-height:40px;border-bottom:1px solid #ddd;}
+    .thumbnail>h5 {margin-top:13px;margin-bottom:13px;font-size: 14px;}
+    .thumbnail .note {color:#ddd;padding-top:13px;border-top:1px solid #ddd;font-size: 12px;text-align: center;}
+    .opac {position: absolute; opacity: 0;width: 0;height: 0;padding: 0;}
+    .opac h4 {color:#fff;text-align: center;}
+    .thumbnail {overflow: hidden;cursor: pointer;position: relative;}
+    .thumbnail:hover .opac {
+        width:100%;
+        height:100%;
+        position: absolute;
+        padding: 80px 26px;
+        float: left;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        font-size: 16px;
+        color: #fff;
+        line-height: 20px;
+        text-align: left;
+        opacity: .8;
+        background-color: #000; 
+        border-radius: 5px;
+        -webkit-border-radius: 5px;  
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px; 
+    }
+     @media screen and (min-width: 1200px) {
+
+
+     }
+     @media screen and (max-width: 1200px) {
+        h4 {margin: 24px auto;padding-left: 15px;}
+        .profession {padding: 24px;}
+        .thumbnail>img {width:115px; height:115px; margin:20px 0 20px 15px;}  
+        .thumbnail .caption {width:58%;height: 100%; margin-top: 0px;}
+     }
+     @media screen and (max-width: 998px) {
+        .thumbnail .caption {width:63%;}
+     }
+     @media screen and (max-width: 767px) {
+        h4 {margin: 16px auto;}
+        .profession {padding: 16px;}
+        .thumbnail>img {width:100px; height:100px; margin:20px 0 20px 10px;}
+        .thumbnail .caption {width:76%;}
+     }
+     @media screen and (max-width: 500px) {
+        .thumbnail .caption {width:60%;padding-right: 5px;}
+     }

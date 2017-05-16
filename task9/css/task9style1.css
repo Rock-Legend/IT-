@@ -1,0 +1,131 @@
+    /*任务8首页主体部分代码*/
+    .carousel .control {
+        position:absolute;
+        display: block;
+        top: 54%;
+        margin-top: -3em;
+        width: 1em;
+        height: 3em;
+        cursor: pointer;
+        z-index: 2;
+      }
+    .carousel .prev{left: 9%;}
+    .carousel .next{right: 9%;}
+    .tour {
+        width: 100%;
+        background: url(../images/image.png) no-repeat ;
+        background-size:cover;
+        padding: 12% 0; /*232px 0*/
+        }
+    .tour p {  
+        margin: 0 auto;
+        width: 72%;
+        text-align: right;
+        color: #fff;
+    }
+    .row-style{max-width:1200px;margin: 102px auto 0;}
+    h3 {text-align:center;font-size:18px;margin-bottom: 68px;}
+
+    .row,.row .thumbnail{ border: none; border-radius: 0;}
+    .row .thumbnail {margin: 1px auto;background-color: transparent;}
+    .thumbnail .caption h4 {text-align: center;margin: 25px auto;}
+    .thumbnail .caption p {font-size: 16px; color: #999; text-align: left;}
+    .statistics {padding-top: 50px;}
+    .statistics p {padding-bottom: 16px;}
+    .statistics a {text-decoration: none;color: #26a26f;}
+    .circle { 
+       width: 70px; 
+       height: 70px;
+       float: left; 
+       background-color: #FFF;
+       display: inline-block;
+       -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+       -ms-border-radius: 50%;
+       border-radius: 50%; 
+    }
+    .circle>span {
+        height:70px; 
+        line-height:70px; 
+        display:block; 
+        color:#29b078; 
+        text-align:center; 
+        font-size:18px;
+    }
+    .box-shadow {  
+        box-shadow: 0 3px 1px #e2e2e2; /*底边阴影*/  
+    }
+    .step {
+        color: #999;
+        width: 150px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .next {display: inline-block;width: 32px;height: 70px;vertical-align: middle;}
+    .circle-portrait {
+        width: 128px;
+        height: 128px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        margin: 15px auto 44px;
+    }
+     .avatar {background: url(../images/Avatar.png) no-repeat;}
+     .eva {background: url(../images/Eva.png) no-repeat;}
+     .anna {background: url(../images/Anna.png) no-repeat;}
+     .piter {background: url(../images/Piter.png) no-repeat;}
+    .cooperative {
+        float:left; 
+        width: 100%;
+        height: 178px;
+        margin-bottom: 15px; 
+        overflow:hidden; 
+    }
+    
+    .alibaba {background: url(../images/alibaba.png) no-repeat 50%/contain #fff;;}
+    .ksyun {background: url(../images/ksyun.png) no-repeat 50% #fff;background-size: contain;}
+    .huanxin {background: url(../images/huanxin.png) no-repeat 50% #fff;background-size: contain;}
+    .yuntongxun {background: url(../images/yuntongxun.png) no-repeat 50% #fff;background-size: contain;}
+    .qiniu {background: url(../images/qiniu.png) no-repeat 50% #fff;background-size: contain;}
+    .ksyun:hover {box-shadow: 0px 0px 10px #999;}
+    .huanxin:hover {box-shadow: 0px 0px 10px #999;}
+    .yuntongxun:hover {box-shadow: 0px 0px 10px #999;}
+    .alibaba:hover {box-shadow: 0px 0px 10px #999;}
+    .qiniu:hover {box-shadow: 0px 0px 10px #999;}
+    .link-group {width:100%;margin-top: 92px;padding-top: 1px;background-color: #fff;}
+    .link-group-main {max-width:1200px;text-align:center;margin:0 auto;}
+    .link-group-main>h4 {text-align:center;margin-top:24px; margin-bottom: 28px;}
+    .link-group-main div {font-size: 14px;margin-bottom: 16px;}
+    .link-group-main div a:hover {border-bottom: 1px solid #29b078;}
+    .link-group a {color: #999;text-decoration: none;}
+
+    @media screen and (min-width: 1024px) {
+        html {font-size: 62.5%;}
+        .col-lg-2-5 {float: left; width: 20%; padding: 0 5px;}
+    }
+    @media screen and (max-width: 1024px) {
+        html {font-size: 31.25%;}
+        .col-sm-6 .step {width: 50%;}
+        .carousel a img {width: 20px;}
+    }
+    @media screen and (max-width: 768px) {
+        html {font-size: 20%;}
+        .carousel .control {top: 64%;}
+        .col-xs-12 .thumbnail .caption p {text-align: center;}
+        .col-xs-12 .statistics {text-align: center;}
+        .col-xs-12 .step {width: 50%;}
+        
+        .col-xs-12  .circle {margin-left: 10%;}
+        .carousel a img {width: 14px;}
+        
+    }
+    @media screen and (max-width: 500px) { 
+        html {font-size: 13%;}
+        .col-xs-12 .thumbnail .caption p {text-align: left;}
+        .col-xs-12 .statistics {text-align: left;}
+        .col-xs-12 .step {width: 50%;min-width: 120px;}
+        .col-xs-12  .circle {margin-left: 3%;}
+        .carousel a img {width: 14px;}
