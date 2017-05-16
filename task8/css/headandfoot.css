@@ -1,0 +1,60 @@
+    /*任务8主体设置*/
+    body {background: #fafafa;margin: 0 auto;font-family: "微软雅黑";
+    }
+    /*任务8header部分代码*/
+    .header {min-width: 1200px;height: 39px;background-color: #fff;}
+    .header-main {width: 1200px;height: 39px;margin: 0 auto;}
+    .header-main .part1 {
+        float: left;
+        }
+    .header-main .part2 {
+        float: right; 
+        }
+    .header-main .part {
+    	height:39px;
+    	line-height: 39px;
+        text-align: right;
+        border: none;
+    	}
+    .header-main .part1 span {color:#29b078;text-align: center;}
+    .header-main .part2 img {margin-left: 9px;margin-right: 9px;}
+    .navbar {min-width: 1200px;background-color: #29b078;border-radius: 0; margin: 0;border: none;}
+    .navbar .navbar-main {width: 1200px;margin: 0 auto;}
+    .navbar .navbar-main a img {padding-top: 26px;padding-bottom: 26px;}
+    .navbar .navbar-main ul {float: right!important;}
+    .navbar .navbar-main li a {
+        color: #fff;
+        font-size: 16px; 
+        padding-top: 40px;
+        padding-bottom: 36px;
+        border-bottom:4px solid #29b078;
+    }
+    .navbar .navbar-main li a:hover {color: #fff;background-color:#29b078;border-bottom:4px solid #fff; }
+
+    /*任务8footer部分代码*/
+    .footer {min-width: 1200px; height: 170px; background-color: #29b078;}
+    .footer-main {
+        width: 1200px;
+        margin: 0 auto;
+        font-color: #fff;
+        background-color: #999;
+    }
+    .footer-main .part1 {width: 30%;height: inherit;float: left;}
+    .footer-main h5 {margin-top: 38px;font-size: 16px;}
+     .footer-main .part1 p {margin-top:36px;}
+    .footer-main .part2 p {margin-top:25px;margin-bottom: 25px;}
+    .footer-main h5,.footer-main p {color: #fff;}
+    .footer-main .part1 a {color: #fff; font-size: 12px;}
+    .footer-main .part1 a:hover {color: #fff; padding-bottom:4px; text-decoration: none; border-bottom: 1px solid #fff;}
+    .footer-main .part2 {width: 40%;height: inherit;float: left; }
+    .footer-main .part2 a {color: #fff;}
+    .footer-main .part2 a:hover {color: #fff;padding-bottom:4px;text-decoration: none; border-bottom: 1px solid #fff;}
+    .footer-note {
+        min-width: 1200px;
+        font-size:12px; 
+        text-align: center;
+        color: #fff;
+        background-color: #29b078;
+        border-top: 1px solid #32c086;
+    }
+    .footer-main .part3 {width: 24%;height: inherit;float: right;text-align: center;}
