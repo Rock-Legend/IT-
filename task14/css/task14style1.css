@@ -1,0 +1,111 @@
+    /*首页内容部分代码*/
+    /* 轮播图部分样式补充开始 */
+    .carousel .control {
+        position:absolute;
+        display: block;
+        top: 50%;
+        margin-top: -3em;
+        width: 1em;
+        height: 3em;
+        cursor: pointer;
+        z-index: 2;
+      }
+    .carousel .prev{left: 18rem;}
+    .carousel .next{right: 18rem;}
+    .tour {
+        width: 100%;
+        height: 604px;
+        background: url(../images/image.png) no-repeat ;
+        background-size:cover;
+        padding: 232px 0; 
+        }
+    .tour p {  
+        margin: 0 auto;
+        width: 60%;
+        text-align: right;
+        color: #fff;
+    }
+    /* 轮播图部分样式补充结束 */
+    /* 内容主体部分样式开始 */
+    /* 第一部分样式 */
+    .row-style{max-width:1200px;margin: 102px auto 0;}
+    h3 {text-align:center;font-size:18px;margin-bottom: 68px;}
+    .row,.row .thumbnail{ border: none; border-radius: 0; background-color: #fafafa;}
+    .row .thumbnail {margin: 0 auto;}
+    .thumbnail .caption h4 {text-align: center;margin: 25px auto;}
+    .thumbnail .caption p {font-size: 16px; color: #999;}
+    .statistics {padding-top: 50px;}
+    .statistics p {padding-bottom: 16px;}
+    .statistics a {text-decoration: none;color: #26a26f;}
+    /* 第二部分如何学习样式*/
+    .circle { 
+       width: 70px; 
+       height: 70px;
+       float: left; 
+       background-color: #FFF; 
+       display: inline-block;
+       -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+       -ms-border-radius: 50%;
+       border-radius: 50%; 
+    }
+    .circle>span {
+        height:70px; 
+        line-height:70px; 
+        display:block; 
+        color:#29b078; 
+        text-align:center; 
+        font-size:18px;
+    }
+    .box-shadow {  
+        box-shadow: 0 3px 1px #e2e2e2; /*底边阴影*/  
+    }
+    .step {
+        color: #999;
+        width: 150px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .next {display: inline-block;width: 32px;height: 70px;vertical-align: middle;}
+    /* 第三部分优秀学员样式 */
+    .circle-portrait {
+        width: 128px;
+        height: 128px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        margin: 15px auto 44px;
+    }
+    /* 第四部分合作企业样式 */
+     .avatar {background: url(../images/Avatar.png) no-repeat;}
+     .eva {background: url(../images/Eva.png) no-repeat;}
+     .anna {background: url(../images/Anna.png) no-repeat;}
+     .piter {background: url(../images/Piter.png) no-repeat;} 
+    .cooperative {
+        float:left; 
+        width: 20%;
+        height: 178px; 
+        overflow:hidden; 
+    }
+    
+    .alibaba {background: url(../images/alibaba.png) no-repeat 50%/contain #fff;;}
+    .ksyun {background: url(../images/ksyun.png) no-repeat 50% #fff;background-size: contain;}
+    .huanxin {background: url(../images/huanxin.png) no-repeat 50% #fff;background-size: contain;}
+    .yuntongxun {background: url(../images/yuntongxun.png) no-repeat 50% #fff;background-size: contain;}
+    .qiniu {background: url(../images/qiniu.png) no-repeat 50% #fff;background-size: contain;}
+    .ksyun:hover, .huanxin:hover, .yuntongxun:hover, .alibaba:hover, .qiniu:hover {box-shadow: 0px 0px 15px #999;}
+    /* 第五部分友情链接样式 */
+   /*  .link-group>h3 {text-align:center;font-size:18px;margin-bottom: 28px;}
+   .link-group ul {display: inline-block;padding-left: 20px;}
+   .link-group ul li {float: left;margin-right: 66px;font-size: 14px;border-bottom: 1px solid #fff;}
+   .link-group ul li:hover {border-bottom: 1px solid #29b078;}
+   .link-group ul a {color: #999;} */
+    .link-group {width:100%;margin-top: 92px;padding-top: 1px;background-color: #fff;}
+    .link-group-main {max-width:1200px;text-align:center;margin:0 auto;}
+    .link-group-main>h4 {text-align:center;margin-top:24px; margin-bottom: 28px;}
+    .link-group-main div {font-size: 14px;margin-bottom: 16px;}
+    .link-group-main div a:hover {border-bottom: 1px solid #29b078;}
+    .link-group a {color: #999;text-decoration: none;}

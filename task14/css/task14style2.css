@@ -1,0 +1,78 @@
+    /*任务8合作企业代码*/
+    .topshow {
+    	width: 100%;height: 250px;
+    	background: url(../images/image3.png) no-repeat 50%/cover;
+    }
+    .tour {width: 1200px; height:inherit; margin: 0 auto;}
+    .tour .part1 {
+    	width: 204px;
+    	height: 100px;
+    	margin: 81px 0 68px 516px;
+    	float: left;}
+    .tour .part2 {
+    	width: 286px;
+    	height: 100px;
+    	margin: 110px 150px 38px 24px;
+    	float: left;
+    }
+    .tour .part1 p {margin: 0; font-size: 44px;color: #fff;text-align: right;}
+    .tour .part1 span {display: block; font-size: 20px; color:#fff; text-align: right;}
+    .tour .part2 p { font-size: 62px; color: #fff; }
+
+
+    .row-style {width: 1200px;margin: 0 auto;}
+    .thumbnail {padding:4px 0 40px;}
+    .nav-header {
+    	padding: 20px 102px 25px;
+    	font-size: 16px;
+    	border-bottom: 1px solid #e6e6e6;
+    }
+    .thumbnail a {
+    	padding: 40px 85px 0 100px;
+    	margin: 0 auto ;
+    	display: block;
+    	text-align: left;
+    	color: #29b078;
+    	text-decoration: none;
+    }
+    .thumbnail a:hover {color: #ff650e;}
+    .thumbnail p {
+    	text-align: left;
+    	padding: 40px 62px 0;
+    	font-size: 14px;
+    	line-height: 24px; 
+    	text-indent: 28px;
+    }
+    .hr { height:1px;width:100%; border:none;border-top:1px solid ;}
+    .company-logo {
+    	width: 236px;
+    	height: 158px;
+    	
+    	display: inline-block;
+    	border-bottom: 1px solid #e6e6e6;
+    	background: url(../images/tudou3.png) no-repeat 50%/cover;
+    }
+    .company-brief {
+    	width: 632px;
+    	height: 158px;
+    	padding-top: 26px; 
+    	padding-right: 62px;
+    	display: inline-block; 
+    	float: right;
+    	text-align: left;
+    	font-size: 14px;
+    	border-bottom: 1px solid #e6e6e6;
+    }
+    .company-brief span {line-height: 24px;}
+
+    #circle {
+    	width: 8px;
+    	height: 8px;
+    	border-radius: 50%;
+    	-webkit-border-radius: 50%;
+    	-moz-border-radius: 50%;
+    	-ms-border-radius: 50%;
+    	border: 1px solid #ff640c;
+    	display: inline-block;
+    }
+    .thumbnail a:hover #circle {background-color: #f9a372;}
